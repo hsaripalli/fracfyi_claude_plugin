@@ -23,4 +23,4 @@ Never ask what a number or location is. Recognize it and call the tool.
 - A 5-digit number is read as a BC WA number. If the result says an Alberta licence with that number also exists, and context points to Alberta, retry with `province="AB"`.
 - `get_township_offsets` takes `mrt` without leading zeros: `042-03W5` becomes `42-3W5`.
 - Resolve names before filtering. Use the exact `operator_names` that `resolve_entity` returns. Never use a LIKE on what the user typed.
-- After identifying the entity, hand off to the matching skill: `well-report`, `pad-analysis`, `area-scout`, `company-profile`, `township-land`.
+- After identifying the entity, hand off to the matching skill: `well-report`, `pad-analysis`, `area-scout`, `company-profile`, `township-land`. For an unfamiliar or private company (for example a new name in the licence feed), use `company-research`.

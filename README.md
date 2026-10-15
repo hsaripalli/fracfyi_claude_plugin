@@ -19,7 +19,7 @@ The plugin connects the frac.fyi MCP server (`https://mcp.frac.fyi/mcp`) and add
 | Pads and offsets | pad-analysis, offset-benchmarking, area-scout, well-spacing |
 | Production | decline-curve-analysis, type-curve, production-reconciliation |
 | Completions | completion-design, planned-completion, proppant-logistics, completion-trends, cycle-times, frac-market-share, frac-supply-chain |
-| Market | market-pulse, play-profile, company-profile, licence-transfers |
+| Market | market-pulse, play-profile, company-profile, company-research, licence-transfers |
 | Crown land | crown-land-sales, upcoming-land-sales, township-land, land-position, land-buyers, lease-lookup, expiring-leases |
 | Power users | custom-sql |
 
