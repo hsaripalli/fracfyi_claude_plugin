@@ -1,0 +1,15 @@
+{
+  "name": "fracfyi",
+  "description": "frac.fyi plugins for Western Canadian oil and gas analysis.",
+  "owner": {
+    "name": "frac.fyi",
+    "url": "https://frac.fyi"
+  },
+  "plugins": [
+    {
+      "name": "fracfyi",
+      "source": "./",
+      "description": "Western Canadian oil and gas intelligence from frac.fyi: wells, completions, production, transfers and Crown land."
+    }
+  ]
+}

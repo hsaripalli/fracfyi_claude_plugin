@@ -1,0 +1,11 @@
+{
+  "name": "fracfyi",
+  "version": "0.1.0",
+  "description": "Western Canadian (Alberta, BC, Saskatchewan) oil and gas intelligence from frac.fyi: wells, frac completions, production, decline curves, licence transfers and Crown land.",
+  "author": {
+    "name": "frac.fyi",
+    "url": "https://frac.fyi"
+  },
+  "homepage": "https://frac.fyi",
+  "keywords": ["oil and gas", "wcsb", "alberta", "frac", "completions", "production", "crown land", "montney", "duvernay"]
+}

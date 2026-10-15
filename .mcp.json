@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "fracfyi": {
+      "type": "http",
+      "url": "https://mcp.frac.fyi/mcp"
+    }
+  }
+}
