@@ -11,7 +11,7 @@
   "icon": ".claude-plugin/icon.png",
   "privacyPolicyUrl": "https://frac.fyi/privacy",
   "termsOfServiceUrl": "https://frac.fyi/terms",
-  "supportUrl": "mailto:support@frac.fyi",
+  "supportUrl": "https://github.com/hsaripalli/fracfyi_claude_plugin/issues",
   "documentationUrl": "https://github.com/hsaripalli/fracfyi_claude_plugin#readme",
   "repository": "https://github.com/hsaripalli/fracfyi_claude_plugin",
   "keywords": ["oil and gas", "wcsb", "alberta", "frac", "completions", "production", "crown land", "montney", "duvernay"]
