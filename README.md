@@ -31,6 +31,12 @@ The plugin connects the frac.fyi MCP server (`https://mcp.frac.fyi/mcp`) and add
 - `Who bought the most Crown land this year, and who holds it now?`
 - `What did InPlay buy from Sifton?`
 
+## Data and privacy
+
+The skills send requests only to the frac.fyi MCP server, with one exception. The `company-research` skill uses the client's own web search and fetch tools, when they're enabled, to look up companies in public sources: company websites and news releases, SEDAR+ and EDGAR filings, regulator sites (AER, BC Energy Regulator, Saskatchewan Ministry of Energy and Resources), corporate registries such as OpenCorporates, trade press, and public profiles of company management. Those searches contain company names and the people named in public sources. No skill stores data.
+
+frac.fyi logs each connector request (account ID, tool, time, duration and status) for about 7 days and does not log request contents. See the [privacy policy](https://frac.fyi/privacy).
+
 ## Data notes
 
 Production is raw wellhead volume for 100% of each well, not a company's reported production. Rates are per producing day. `operator` is the current licensee. Missing values are not zero.
