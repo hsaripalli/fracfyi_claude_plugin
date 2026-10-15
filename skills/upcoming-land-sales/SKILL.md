@@ -7,9 +7,9 @@ description: Lists Crown land parcels posted for upcoming Alberta and Saskatchew
 
 ## Steps
 1. `get_upcoming_land_sales(province, sale_date)` returns each parcel's townships, hectares, rights, restriction codes, land keys and cancelled parcels.
-2. For parcels the user cares about, add context:
-   - `get_township_offsets(mrt)` for wells and activity around the parcel.
-   - `get_township_land(township)` for current leases and past sales nearby, including past $/ha.
+2. For a parcel the user cares about, call `get_land_parcel(parcel, sale_date)` first: the wells inside it (current licensee, formation, status, frac, production), its pads, earlier sales of the same sections and the township's other sales. Then add context:
+   - `get_township_offsets(mrt)` for wells and activity around the parcel, including horizontals drilled into it from outside.
+   - `get_township_land(township)` for current leases over the township.
 3. For a price guide, compare with recent `get_land_sales` results in the same townships.
 
 ## Output
