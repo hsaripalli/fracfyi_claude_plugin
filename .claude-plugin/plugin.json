@@ -7,5 +7,8 @@
     "url": "https://frac.fyi"
   },
   "homepage": "https://frac.fyi",
+  "license": "MIT",
+  "icon": ".claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://frac.fyi/privacy",
   "keywords": ["oil and gas", "wcsb", "alberta", "frac", "completions", "production", "crown land", "montney", "duvernay"]
 }
